@@ -228,7 +228,32 @@ footer{
     gap: 10px;
     overflow: hidden;
     }
+
+    .truco {
+        width: 500px;
+        height: 36px;
+        font-size: 30px;
+        line-height: 30px;
+        display: flex;
+        overflow: hidden;   
+    }
     
+
+    @keyframes cambiar {
+        0% {margin-top: 0;}
+        20%{margin-top: 0;}
+    
+        25%{margin-top: -30px;}
+        50%{margin-top: -30px;}
+    
+        55%{margin-top: -60px;}
+        80%{margin-top: -60px;}
+    
+        85%{margin-top: -30px;}
+        95%{margin-top: -30px;}
+    
+        100%{margin-top: 0;}
+    }
 
     .textoBienvenida{
     font-size: 10px;
@@ -246,17 +271,7 @@ ul li{
     margin-top:320px ;
     color: white;    
 }
-button{
-    cursor: pointer;
-    border: none;
-    margin: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 12px;
-    display: inline-block;
-    color: coral;!important
-}
+
 .contenedor__b{
     width: 80%;
     height: auto;
