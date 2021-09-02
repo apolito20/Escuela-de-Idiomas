@@ -3,7 +3,7 @@
 body{
     background-color: #c4a8a8;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    
 }
 .contenedor {
     display: grid;
@@ -218,6 +218,10 @@ footer{
 
 
 @media only screen and (max-width: 767px){
+
+body{
+    overflow: x-hidden;
+}
 
 .contenedor {
     display: grid;
