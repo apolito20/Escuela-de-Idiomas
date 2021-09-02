@@ -262,8 +262,6 @@ footer{
 ul li{
     margin: 0;
     font-size: 16px;
-    
-
 }
 
 .contenedor__a{
@@ -283,11 +281,12 @@ ul li{
     background-color: white;
     opacity: 0.9;
     width: 100%;
-    height: 900px;
+    height: 460px;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 40px;
+    
 }
 
 .tituloH2{
@@ -296,6 +295,19 @@ ul li{
     border: rgb(20, 84, 55) 3px dotted; 
     text-align: center;
 }
+.animate__bounce{
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    padding: 30px;
+    animation: bounce;  
+    animation-duration: 6s;
+    flex-direction: ;
+}
+
+
+
+
 .parrafo{
     line-height: 30px;
     padding: 20px;
