@@ -3,6 +3,7 @@
 body{
     background-color: #c4a8a8;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 .contenedor {
     display: grid;
