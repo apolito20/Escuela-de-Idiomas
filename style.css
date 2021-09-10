@@ -3,7 +3,6 @@
 body{
     background-color: #20326b;
     font-family: 'Poppins', sans-serif;
-    
 }
 .contenedor {
     display: grid;
@@ -315,7 +314,7 @@ ul li{
     padding: 30px;
     animation: bounce;  
     animation-duration: 6s;
-    flex-direction: ;
+    
 }
 
 .parrafo{
