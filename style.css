@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 body{
-    background-color: #c4a8a8;
+    background-color: #20326b;
     font-family: 'Poppins', sans-serif;
     
 }
@@ -11,13 +11,13 @@ body{
     width: 100%;
     max-width: 1000px;
     height: 400px;
-    margin-left: 30px;
-    gap: 10px;
-    overflow: hidden;
 }
 
-header{
-    background: url(assets/1.jpg) no-repeat right top;
+.imgPrincipal{
+    width: 370px;
+    height: 370px;
+    margin-right: -150px;
+    grid-column: 12/12;
 }
 
 
@@ -53,7 +53,7 @@ ul {
 }
 
 .contenedorDos{
-    background-color: white;
+    background-color: #20326b;
     opacity: 0.9;
     width: 100%;
     height: 400px;
@@ -61,6 +61,14 @@ ul {
     align-items: center;
     flex-direction: column;
     padding: 50px;
+    color: white;
+}
+
+.descripcion{
+    font-size: 20px;
+    border-left: 0.5px solid white;
+    width: 200%;
+    padding-left: 20px ;
 }
 
 .animate__bounce{
@@ -75,12 +83,12 @@ ul {
 .tituloH2{
     padding: 20px;
     margin: 20px;
-    font-size: 3rem;
-    border: rgb(241, 252, 36) 3px dotted; 
+    font-size: 4rem;
+    border: crimson 0.4px solid; 
 }
 .parrafo{
     line-height: 40px;
-
+    color: white;
 }
 .banderas{
     flex-direction: row;
@@ -89,20 +97,18 @@ ul {
 ul li{
     margin: 0;
     font-size: 36px;
-    border-bottom: crimson solid 3px;
+    border-bottom: crimson dashed 1px;
 }
 .contenedor__a{
-    grid-column: 1/6;
-    padding-top: 30%;
+    grid-column: 4/8;
+    margin-top: 140px;
     color: white;
-    
-    
 }
 
 .contenedor__b{
     width: 100%;
     height: auto;
-    grid-column: 7/13;
+    grid-column: 7/12;
     margin-top: 15%;
 }
 
@@ -114,8 +120,8 @@ a{
 }
 
 a:hover {
-    color:rgb(241, 252, 36);
-    border-bottom: rgb(241, 252, 36) 3px dotted; 
+    color:crimson 0.4px solid;
+    border-bottom: crimson 0.4px solid; 
 }
 
 button{
@@ -140,10 +146,10 @@ button{
     height: 600px;
     margin: 3%;
     text-align: center;
-    color: black;
+    color: white;
     display: flex;
     flex-direction: column;
-    background-color:white;
+    background-color:#20326b;
     padding: 30px;
 }
 
@@ -155,9 +161,11 @@ button{
 .card{
     padding: 20px;
     margin: 2%;
-    border: rgb(241, 252, 36) 3px dotted;   
+    border: crimson 0.4px solid;   
     flex-direction: row;
     align-items: center;
+    background-color: crimson;
+    color: white;
 }
 
 .contenedorTarjetas{
@@ -171,7 +179,7 @@ button{
     margin-top: 5%;
     width: 30%;
     display: flex;
-    background-color: rgb(241, 252, 36);
+    background-color: crimson 0.4px solid;
     justify-content: center;
     align-self: center;
 }
@@ -202,7 +210,7 @@ button{
 i{
     font-size: 5rem;
     padding: 30px;
-    color: tomato;
+    color: crimson;
 }
 
 footer{
@@ -283,7 +291,7 @@ ul li{
     margin-top: -15%;
 }
 .contenedorDos{
-    background-color: white;
+    background-color: #20326b;
     opacity: 0.9;
     width: 100%;
     height: 460px;
@@ -297,7 +305,7 @@ ul li{
 .tituloH2{
     padding: 20px;
     font-size: 1.5rem;
-    border: rgb(20, 84, 55) 3px dotted; 
+    border: crimson 0.3px solid; 
     text-align: center;
 }
 .animate__bounce{
@@ -309,9 +317,6 @@ ul li{
     animation-duration: 6s;
     flex-direction: ;
 }
-
-
-
 
 .parrafo{
     line-height: 30px;
@@ -328,10 +333,10 @@ width: 100%;
     height: 1000px;
     margin: 3%;
     text-align: center;
-    color: black;
+    color: white;
     display: flex;
     flex-direction: column;
-    background-color:white;
+    background-color:#20326b;
     padding: 20px;
 }
 
@@ -342,7 +347,7 @@ width: 100%;
 .card{
     padding: 20px;
     margin: 2%;
-    border: rgb(20, 84, 55) 3px dotted;   
+    border: crimson 0.3px solid;   
     flex-direction: row;
     align-items: center;
 }
@@ -358,7 +363,7 @@ width: 100%;
     margin-top: 5%;
     width: 30%;
     display: flex;
-    background-color: rgb(20, 84, 55);
+    background-color: crimson;
     justify-content: center;
     align-self: center;
 }
@@ -367,8 +372,8 @@ width: 100%;
     height: 300px;
     margin: 3%;
     text-align: center;
-    color: black;
-    background-color:white;
+    color: white;
+    background-color:#20326b;
     padding: 20px;
 
 }
@@ -391,7 +396,7 @@ border-radius: 100%;
 i{
     font-size: 2rem;
     padding: 20px;
-    color: tomato;
+    color: crimson;
 }
 
 }
